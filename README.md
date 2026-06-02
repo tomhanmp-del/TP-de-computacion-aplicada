@@ -1,18 +1,16 @@
-# TP Integrador - Sistemas Operativos
+TP Integrador - Computacion Aplicada
+1er cuatrimestre 2026
 
-## Integrantes del grupo
-
+Integrantes:
 - Tomas Hansen
 - Pedro Badin
 - Lautaro Larraignet
 
-## Contenido del repositorio
+Este repo tiene los entregables del TP integrador de computacion aplicada.
+Hicimos la VM en Debian 12 con apache, mariadb, php y todo lo del enunciado.
 
-| Archivo | Descripcion |
-|---------|-------------|
-| root.tar.gz | Backup de /root |
-| etc.tar.gz | Backup de /etc |
-| opt.tar.gz | Backup de /opt |
-| www_dir.tar.gz | Backup de /www_dir |
-| backup_dir.tar.gz | Backup de /backup_dir |
-| var.tar.gz.part_* | Backup de /var (split en partes de 90MB) |
+Los archivos tar.gz son backups comprmidos de cada directorio de la VM
+(root, etc, opt, www_dir, backup_dir). El de /var va partido en partes
+porque era muy grande para subir de una.
+
+Cualquier cosa avisar.
